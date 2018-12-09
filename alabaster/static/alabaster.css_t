@@ -768,6 +768,6 @@ nav#breadcrumbs li+li:before {
     }
 }
 
-img.donate {
+img.donation {
 	height:26px;
 }
