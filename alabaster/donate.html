@@ -1,13 +1,13 @@
 {# TODO: wrap all these in their own divs for easier styling #}
 
 {% if theme_donate_url or theme_opencollective or theme_tidelift_url %}
-<h3 class="donation">Donate/support</h3>
+<h3 class="donation">Support/Donate</h3>
 {% endif %}
 
 {% if theme_donate_url %}
 <p>
 <a class="badge" href="{{ theme_donate_url }}">
-<img src="_static/donate.png" alt="Donate">
+<img class="donation" src="_static/donate.png" alt="Donate">
 </a>
 </p>
 {% endif %}

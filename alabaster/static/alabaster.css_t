@@ -767,3 +767,7 @@ nav#breadcrumbs li+li:before {
         display: none;
     }
 }
+
+img.donate {
+	height:26px;
+}
