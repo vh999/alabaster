@@ -473,6 +473,21 @@ table.footnote td {
     padding: 0.3em 0.5em;
 }
 
+/* 
+added in custom branch 
+*/
+table.colwidths-given {
+    width:100%;
+}
+th {
+    background-color:#dfdfdf;
+}
+tr.row-odd {
+    background-color:#f9f9f9;
+}
+
+
+
 dl {
     margin: 0;
     padding: 0;
