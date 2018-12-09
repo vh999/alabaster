@@ -16,4 +16,11 @@ For more documentation, please see http://alabaster.readthedocs.io.
 
 .. note::
     You can install the development version via ``pip install -e
-    git+https://github.com/bitprophet/alabaster/#egg=alabaster``.
+    git+https://github.com/bitprophet/alabaster@custom#egg=alabaster``.
+
+	 The ``custom`` branch has been created to support customization of the
+	 alabaster theme. All mods made to the master branch will be merged to
+	 the ``custom`` branch from time to time or when deemed necessary. To
+	 install the theme from the ``custom`` branch, invoke the following::
+
+	 pip install --upgrade git+https://github.com/bitprophet/alabaster@custom#egg=alabaster
