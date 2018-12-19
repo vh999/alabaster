@@ -786,3 +786,7 @@ nav#breadcrumbs li+li:before {
 img.donation {
 	height:26px;
 }
+
+div.document {
+    border-bottom:1px solid black;
+}
