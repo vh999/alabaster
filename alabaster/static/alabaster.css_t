@@ -790,3 +790,9 @@ img.donation {
 div.document {
     border-bottom:1px solid black;
 }
+
+/* add style to table caption */
+caption > span {
+    font-size: 130%;
+}
+
