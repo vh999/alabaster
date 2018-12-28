@@ -795,4 +795,10 @@ div.document {
 caption > span {
     font-size: 130%;
 }
+/* change the background-color of the side note */
+div.sidebar {
+    background-color: #f7f7f7;
+    border: 1px solid #CCC;
+}
+
 
