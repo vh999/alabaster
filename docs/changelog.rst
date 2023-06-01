@@ -2,6 +2,19 @@
 Changelog
 =========
 
+- :release:`0.7.13 <2023-01-13>`
+- :support:`- backported` Modernized the project: s/Travis/Circle/ for CI,
+  README badges, ``setup.cfg`` removal, metadata refresh, etc.
+- :support:`- backported` Dropped support for Python 2 and Python <3.6. This
+  includes various minor updates to work correctly with modern versions of
+  Sphinx (1.6 at the very least). Thanks to Adam Turner for a pile of patches
+  here.
+
+  .. warning::
+    This change is backwards incompatible if you're on an old Python version.
+
+- :support:`- backported` Tweak CSS somewhat for compatibility with modern
+  Sphinx versions' base stylesheet.
 - :release:`0.7.12 <2018-10-02>`
 - :bug:`-` On some browsers/platforms, 'badge'-style sidebar elements were
   displaying dotted underlines. This was unintentional and explicit styling has
@@ -51,7 +64,9 @@ Changelog
   .. note::
     You can always go back to the old values by :ref:`explicitly setting
     <theme-options>` ``font_family`` and/or ``head_font_family`` in your
-    ``conf.py``'s ``html_theme_options``, e.g.::
+    ``conf.py``'s ``html_theme_options``, e.g.:
+
+    .. code-block:: python
 
         html_theme_options = {
             'description': 'My awesome project',

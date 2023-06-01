@@ -1,8 +1,25 @@
+.. image:: https://img.shields.io/pypi/v/alabaster.svg
+   :target: https://pypi.org/project/alabaster/
+   :alt: Package on PyPI
+
+.. image:: https://img.shields.io/circleci/build/github/sphinx-doc/alabaster/main
+    :target: https://app.circleci.com/pipelines/github/sphinx-doc/alabaster
+    :alt: CI Status
+
+.. image:: https://readthedocs.org/projects/alabaster/badge/
+   :target: https://alabaster.readthedocs.io/
+   :alt: Documentation Status
+
+.. image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
+   :target: https://opensource.org/licenses/BSD-3-Clause
+   :alt: BSD 3 Clause
+
+
 What is Alabaster?
 ==================
 
 Alabaster is a visually (c)lean, responsive, configurable theme for the `Sphinx
-<http://sphinx-doc.org>`_ documentation system. It is Python 2+3 compatible.
+<http://sphinx-doc.org>`_ documentation system. It is Python 3.6+ compatible.
 
 It began as a third-party theme, and is still maintained separately, but as of
 Sphinx 1.3, Alabaster is an install-time dependency of Sphinx and is selected
